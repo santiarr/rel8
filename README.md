@@ -1,1 +1,1 @@
-Rel8 is a tool that empowers learning on the web through networked browsing.
+Rel8 is a chrome extension that empowers learning on the web through networked browsing.

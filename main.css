@@ -1,0 +1,46 @@
+html{
+    height: 450px;
+    width: 350px;
+}
+
+
+body{
+    height: 450px;
+    width: 350px;
+    margin: 0 0 0 0;
+    background-image:url("static/Rel8 (2).png") ;
+}
+
+
+.home-button{
+    width: 200px;
+    height: 40px;
+    border-width: 10px;
+    border-color: black;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#new-web{
+   background: rgb(0,180,255);
+   margin-bottom: 20px;
+   border-color: black;
+   color: white;
+}
+
+#manage-webs{
+   background: white;
+   color: black;
+}
+
+#button-area{
+    position: absolute;
+    margin-left: 77;
+    margin-top: 225px;
+}
+
+.button-text{
+    margin-top: 6px;
+}

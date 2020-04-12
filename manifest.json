@@ -3,7 +3,8 @@
     "version": "0.1",
     "description": "Rel8 is a chrome extension that uses networked browsing to document your journey through the web. ",
     "manifest_version": 2,
-    "browser_action": {
-      "default_popup": "popup.html"
-    }
+    "permissions":["tabs"],
+      "browser_action": {
+        "default_popup": "popup.html"
+      }
   }

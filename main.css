@@ -21,9 +21,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
-#new-web{
+#add-to-web{
    background: rgb(0,180,255);
    margin-bottom: 20px;
    border-color: black;
@@ -43,4 +44,22 @@ body{
 
 .button-text{
     margin-top: 6px;
+    z-index: -10px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  .save-text{
+    margin-top: 6px;
+    z-index: -10px;
+    width: 200px;
+    height: 40px;
+    border-width: 10px;
+    border-color: black;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
 }
